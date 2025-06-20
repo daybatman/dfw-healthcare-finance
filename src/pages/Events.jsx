@@ -88,10 +88,10 @@ const Events = () => {
 
   return (
     <Box minH="100vh" bgGradient={useColorModeValue('linear(to-b, teal.50, blue.50, white)', 'linear(to-b, teal.900, blue.900, gray.800)')} width="100%">
-      <Box py={16} width="100%">
+      <Box py={4} width="100%" mb={8}>
         <Container maxW="container.xl" px={4}>
           <Stack spacing={12} textAlign="center" align="center">
-            <Heading as="h1" size="2xl" bgGradient="linear(to-r, teal.400, blue.500, purple.600)" bgClip="text" fontWeight="extrabold">
+            <Heading as="h1" size="2xl" color={useColorModeValue('teal.500', 'teal.300')} fontWeight="extrabold" textAlign="center">
               Upcoming Events
             </Heading>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} spacing={8}>
