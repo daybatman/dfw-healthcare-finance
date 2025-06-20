@@ -6,7 +6,7 @@ const Navbar = () => {
     <Box bg={useColorModeValue('white', 'gray.800')} px={4} boxShadow="sm">
       <Flex h={16} alignItems="center" justifyContent="space-between" maxW="1200px" mx="auto">
         <Box fontWeight="bold" fontSize="xl">
-          <RouterLink to="/">DFW Healthcare Finance Connect</RouterLink>
+          <RouterLink to="/">DFW Common Ground</RouterLink>
         </Box>
         
         <Flex alignItems="center" gap={4}>
